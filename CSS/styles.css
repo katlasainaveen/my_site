@@ -4,10 +4,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  overflow-y: scroll;
-}
-
 a {
   text-decoration: none;
 }
@@ -69,7 +65,7 @@ td {
 
   display: grid;
   grid-template-columns: 370px;
-  grid-template-rows: 205px, 100px 100px;
+  grid-template-rows: 205px, 100px, 100px;
   grid-template-areas: "image" "name" "line" "label" "social-media";
 
   background: #FFB8B8;
