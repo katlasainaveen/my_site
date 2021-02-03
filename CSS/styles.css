@@ -63,11 +63,6 @@ td {
   min-width: 200px;
 }
 
-@keyframes mymove {
-  from {top: 0px;}
-  to {top: 200px; background-color: blue;}
-}
-
 .card {
   width: 370px;
   height: 525px;
