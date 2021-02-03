@@ -63,7 +63,15 @@ td {
   min-width: 200px;
 }
 
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px; background-color: blue;}
+}
+
 .card {
+  animation: mymove 3s;
+  animation-fill-mode: forwards;
+  
   width: 370px;
   height: 525px;
 
