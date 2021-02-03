@@ -4,6 +4,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-y: scroll;
+}
+
 a {
   text-decoration: none;
 }
