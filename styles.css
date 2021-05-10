@@ -16,6 +16,8 @@ a {
 }
 
 .nav-bar {
+  padding-top: 12px;
+  padding-bottom: 12px;
   width: 100%;
   z-index: 1;
   position: fixed;
@@ -23,16 +25,36 @@ a {
   padding-inline: 10%;
 }
 
-.nav_head a {
+/* .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+#item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#item li {
+  list-style: none;
+  padding-right: 50px;
+}
+
+.nav a {
   font-size: 0.9rem;
   color: white;
   padding-right: 40px;
 }
 
-.nav_head a:hover, a:active {
-  background-color: white;
-  color: black;
-}
+.nav a:hover, a:active {
+  /* padding: 10px; */
+  /* background-color: white; */
+  /* color: #8693F8; */
+/* }  */
 
 .sheet {
   padding-top: 4%;
@@ -127,6 +149,11 @@ h6 {
 @media only screen and (min-width: 800px) {
   .sheet-img {
     padding-top: 10%;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .remove-nav {
+    width: 0;
   }
 }
 
